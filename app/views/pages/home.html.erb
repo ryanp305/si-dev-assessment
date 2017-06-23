@@ -1,6 +1,20 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
 
-<%= form_tag("/sms/send", method: "post") do %>
-<!-- add form elements here -->
-<% end %>
+<div class="page">
+
+<span class="header-content">
+<p id="header-text">Sudden Alert Messaging App</p>
+
+
+<div class="intro-text">
+<h2>Welcome to the <span id="title">Sudden Alert Messaging App</span>. To send a text, type your message and the phone number of the person that you'd like to contact in the fields below and click send.</hp>
+</div>
+
+<div class="form-style">
+<form>
+<p><span id="phoneNumber">Phone Number:</span> <%= telephone_field(:user, :phone) %></p>
+<textarea name="text-field" placeholder="Type your Message"></textarea>
+<input type="submit" value="Send" />
+</form>
+</div>
+
+</div>
