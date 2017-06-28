@@ -14,28 +14,60 @@
  *= require_self
  */
 
-.page {
-font-family: 'Roboto Mono', monospace;
 
+
+.page {
+    padding-top: 1px;
+    padding-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("nasa-43563.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.header-image  {
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
 }
 
 #header-text {
-    font-size: 2.3em;
+    font-size: 1.8em;
     font-weight: bold;
-    color: #127ea5;
-    text-shadow: 2px 2px #d4d6d6;
+    color: #ff8700;
+    text-shadow: 1px 1px #fed070;
+    background: #dee2e2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 3px solid #fed070;
 }
 
-h2 {
-    font-size: 1.1em;
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.3em;
+    color: #0000bf;
+    text-shadow: .5px .5px #CCCCCC;
+}
+
+#instruction-text {
+    text-align: center;
+    font-size: 1em;
+    line-height: 130%;
+    
 }
 
 #phoneNumber {
     font-weight: bold;
+    font-size: 1.1em;
+    color: #FDB913;
+    text-shadow: .5px .5px #CCCCCC;
 }
 
-.header-content {
-    text-align: center;
+#header-content {
+
 }
 
 .intro-text {
@@ -53,9 +85,10 @@ h2 {
     max-width: 400px;
     margin: 30px auto;
     padding: 30px;
-    background: #d4d6d6;
+    background: #f9f9f9;
     border-radius: 15px;
-    border-top: solid .5rem #127ea5;
+    border-top: solid .3rem #0000bf;
+    border-bottom: solid .3rem #0000bf; 
 }
 
 .form-style input[type="text"],
@@ -75,9 +108,9 @@ h2 {
     margin-bottom: 4%;
     border: 1px solid #ccc;
     padding: 3%;
-    color: #555;
+    color: black;
     font: 95%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .form-style input[type="text"]:focus,
 .form-style textarea:focus,
@@ -85,8 +118,8 @@ h2 {
 {
     box-shadow: 0 0 5px #00bcff;
     padding: 3%;
-    border: 1px solid #43D1AF;
-    font-family: 'Roboto Mono', monospace;
+    border: 1px solid #00bcff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .form-style input[type="submit"],
@@ -96,24 +129,24 @@ h2 {
     -moz-box-sizing: border-box;
     width: 100%;
     padding: 3%;
-    background: #127ea5;
+    background: #0000bf;
     border-radius: 15px;
-    border-bottom: 2px solid #064156;  
+    border-bottom: 2px solid #00bcff;  
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.1em;
-    cursor:pointer;
+    cursor: pointer;
 }
 .form-style input[type="submit"]:hover,
 .form-style input[type="button"]:hover{
-    background: #00bcff;
+    background: #FDB913;
 
 }
 
-/* Media Queries
+/* Media Queries (testing)
 
 @media screen and (min-width: 480px) {
 #header-text {
