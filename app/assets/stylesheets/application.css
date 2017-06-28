@@ -27,23 +27,6 @@
 
 }
 
-.header-image  {
-    display: block;
-    margin: auto;
-    padding-bottom: 5px;
-}
-
-#header-text {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #ff8700;
-    text-shadow: 1px 1px #fed070;
-    background: #dee2e2;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-top: 3px solid #fed070;
-}
-
 h1 {
     text-align: center;
     font-weight: bold;
@@ -51,6 +34,13 @@ h1 {
     color: #0000bf;
     text-shadow: .5px .5px #CCCCCC;
 }
+
+.header-image  {
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
 
 #instruction-text {
     text-align: center;
@@ -64,20 +54,6 @@ h1 {
     font-size: 1.1em;
     color: #FDB913;
     text-shadow: .5px .5px #CCCCCC;
-}
-
-#header-content {
-
-}
-
-.intro-text {
-    margin: auto;
-    text-align: center;
-    max-width:500px;
-}
-
-#title {
-    color:#d60c0c;
 }
 
 .form-style{
